@@ -10,3 +10,93 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 5%;
+    /* margin: 10%; */
+    margin-left: 45%;
+    background-color: #91aef1;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.traffic-light{
+    background: linear-gradient(90deg, black, #b1b1b1);
+    border: 3px solid grey;
+    /* border-right: 5px solid grey; */
+    border-radius: 20px;
+    /* background: black; */
+    display: inline-block;
+    padding: 10px;
+    
+}
+.light {
+    
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px;
+}
+.red {
+    border-top: 10px solid #595959;
+    background-color: red;
+}
+.yellow {
+    
+    border-top: 10px solid #595959;
+    background-color: yellow;
+}
+.green {
+    border-top: 10px solid #595959;
+    background-color: rgb(0, 255, 0);
+}
+.extra {
+    
+    border-top: 10px solid #595959;
+    background-color: rgb(251, 0, 255);
+
+}
+.extra-glow {
+    background-color: rgb(251, 0, 255);
+    border-top: 10px solid #e659de;
+    /* background-color: red; */
+    box-shadow:
+    0 0 15px 10px #e730ff,  /* inner white */
+    0 0 25px 30px rgb(221, 0, 255), /* middle magenta */
+    0 0 700px 45px rgb(255, 0, 255)
+}
+.glow-red {
+    border-top: 10px solid #ff4141;
+    /* background-color: red; */
+    box-shadow:
+    0 0 15px 10px #ff3030,  /* inner white */
+    0 0 25px 30px rgb(255, 0, 0), /* middle magenta */
+    0 0 700px 45px rgb(255, 0, 4)
+}
+
+.glow-yellow {
+    border-top: 10px solid #f0f566;
+    
+    box-shadow:
+    0 5px 15px 10px #ffff6f,  /* inner white */
+    0 0 25px 25px rgb(246, 255, 0), /* middle magenta */
+    0 0 700px 40px rgb(251, 255, 0);
+}
+.glow-green{
+    border-top: 10px solid #74ed53;
+    box-shadow: 
+    0 0 15px 10px #6cff5e,  
+    0 0 25px 30px rgb(0, 255, 34), 
+    0 0 700px 45px rgb(9, 255, 0); 
+}
+div .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    align-items: center;
+    
+    
+}
+
